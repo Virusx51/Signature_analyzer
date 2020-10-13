@@ -1,0 +1,42 @@
+|Signature_analyzer
+Out[0] <= Register:inst.Out[0]
+Out[1] <= Register:inst.Out[1]
+Out[2] <= Register:inst.Out[2]
+Out[3] <= Register:inst.Out[3]
+Out[4] <= Register:inst.Out[4]
+Clock => Register:inst.Clock
+Reset => Register:inst.Reset
+y[0] => inst11.IN0
+y[0] => inst18.IN0
+y[0] => inst21.IN0
+y[1] => inst12.IN0
+y[1] => inst18.IN1
+y[2] => inst11.IN1
+y[2] => inst12.IN1
+y[3] => inst13.IN1
+y[4] => ~NO_FANOUT~
+
+
+|Signature_analyzer|Register:inst
+Out[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Out[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Out[2] <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Out[3] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Out[4] <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Reset => inst3.ALOAD
+Reset => inst2.ALOAD
+Reset => inst1.ALOAD
+Reset => inst.ALOAD
+Reset => inst4.ALOAD
+Clock => inst3.CLK
+Clock => inst2.CLK
+Clock => inst1.CLK
+Clock => inst.CLK
+Clock => inst4.CLK
+In[0] => inst.DATAIN
+In[1] => inst1.DATAIN
+In[2] => inst2.DATAIN
+In[3] => inst3.DATAIN
+In[4] => inst4.DATAIN
+
+
