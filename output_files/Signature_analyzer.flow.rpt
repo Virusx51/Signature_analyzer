@@ -1,5 +1,5 @@
 Flow report for Signature_analyzer
-Tue Oct 13 22:34:35 2020
+Fri Oct 16 12:44:09 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 13 22:34:33 2020       ;
+; Flow Status                        ; Successful - Fri Oct 16 12:44:09 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; Signature_analyzer                          ;
 ; Top-level Entity Name              ; Signature_analyzer                          ;
@@ -93,7 +93,25 @@ https://fpgasoftware.intel.com/eula.
 ; Fitter               ; 00:00:04     ; 1.1                     ; 6464 MB             ; 00:00:05                           ;
 ; Assembler            ; 00:00:00     ; 1.0                     ; 4678 MB             ; 00:00:01                           ;
 ; Timing Analyzer      ; 00:00:01     ; 1.1                     ; 4892 MB             ; 00:00:01                           ;
-; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:25                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4628 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4636 MB             ; 00:00:01                           ;
+; Total                ; 00:00:30     ; --                      ; --                  ; 00:00:43                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -106,6 +124,24 @@ https://fpgasoftware.intel.com/eula.
 ; Fitter               ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; SASHA-KOMP       ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -116,6 +152,24 @@ quartus_map --read_settings_files=on --write_settings_files=off Signature_analyz
 quartus_fit --read_settings_files=off --write_settings_files=off Signature_analyzer -c Signature_analyzer
 quartus_asm --read_settings_files=off --write_settings_files=off Signature_analyzer -c Signature_analyzer
 quartus_sta Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Signature_analyzer -c Signature_analyzer --vector_source=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/Waveform.vwf --testbench_file=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/apps/intelFPGA_lite/20.1/Signature_analyzer/simulation/qsim/ Signature_analyzer -c Signature_analyzer
 
 
 
